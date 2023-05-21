@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
+body {
+    font-family: 'Carlito', sans-serif;
+    
+}
+
+header {
+    background-color: #4f7364e6;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+main {
+    background-image: url(1625262901_30-kartinkin-com-p-fon-roboti-krasivie-foni-31.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #7ea89a;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    padding: 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    font-size: larger;
+    
+}
+
+nav ul li {
+    display: flex;
+    margin-left: 50px;
+    
+}
+
+nav ul li a {
+    display: block;
+    margin: auto 0;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+nav ul li :hover {
+    background-color: rgba(54, 39, 32, 0.749);
+    color: azure;
+    height: 60%;
+    border-radius: 10px;
+    padding: 0 10px;
+    animation: button 0.7s alternate;
+}
+
+@keyframes button {
+    from {
+        height: 40%;
+    }
+    to {
+        height: 60%;
+    }
+}
+
+.logo {
+    display: flex;
+    padding: 1px;
+}
+
+.logo p {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.logo img {
+    height: 45px;
+}
+
+.container-one {
+    text-align: center;
+    color: rgb(43, 52, 61);
+    margin-top: 82px;
+}
+
+.container-one h1 {
+    font-size: 50px;
+}
+
+.container-one p {
+    display: block;
+    margin: 50px auto;
+    font-size: 30px;
+    max-width: 900px;
+    color: rgb(33, 46, 42);
+}
+
+.container-one img {
+    display: block;
+    margin: 50px auto ;
+    max-width: 670px;
+}
+
+.container-two {
+    display: block;
+    text-align: center;
+    background-color: #7e7b7b7c;
+    margin: 50px auto;
+    font-size: 30px;
+    max-width: 900px;
+    color: rgb(39, 51, 47);
+    padding: 20px;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 50px auto;
+
+    background-color: #8b8b8b80;
+}
+
+.container-three h4 {
+    display: block;
+    margin: 20px auto;
+    font-size: 30px;
+}
+
+.grade {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.bg-user {
+    background-color: antiquewhite;
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px 20px 20px 0;
+    margin-right: 5px;
+}
+
+form {
+    background-color: #12453994;
+    border: 2px solid bisque;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+form h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mr-20 {
+    margin-right: 20px;
+    width: 170px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+#but1 {
+    display: block;
+    margin: 50px auto 0;
+    padding: 10px;
+    background-color: #baf2cd9b;
+    border-radius: 5px;
+    border: none;
+    color: rgb(45, 43, 39);
+
+}
+
+@media (max-width: 700px) {
+    .container-one p {
+        font-size: 20px;
+    }
+    .container-two p {
+        font-size: 20px;
+    }
+    .container-one img {
+        width: 470px;
+    }
+    .container-two img {
+        width: 470px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li :hover {
+        height: 100%;
+    }
+    @keyframes button {
+        from {
+            height: 40%;
+        }
+        to {
+            height: 100%;
+        }
+    }
+}

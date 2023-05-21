@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section>
+            <nav>
+                <div class="logo">
+                    <img src="free-icon-robotics-1129025.png" alt="logo">
+                    <p>ЮНЫЙ <br> РОБОТОТЕХНИК</p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#box-one">Наша миссия</a>
+                    </li>
+                    <li>
+                        <a href="#box-two">Преимущество продукта</a>
+                    </li>
+                    <li>
+                        <a href="#box-three">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="#box-four">Оставить заявку</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <div class="bg-img"></div>
+        <section id="box-one">
+            <div class="container-one">
+                <h1>Вас приветствует клуб "Юный робототехник"</h1>
+                <img src="5655_big.jpg" alt="">
+                <p>Современный мир невозможно представить без использования робототехнических механизмов, поэтому важно прививать и развивать у школьников тягу к техническим дисциплинам, таким как робототехника.</p>
+                <hr>
+            </div>
+        </section>
+        <section id="box-two">
+            <div class="container-two">
+                <p>Цели и задачи программы:
+                    позволяет расширить технический кругозор;
+                    помогает развитию мелкой моторики;
+                    позволяет применить теоретические знания на практике;
+                    позволяет научиться проектной деятельности;
+                    повышает уровень социализации и умение находить общий язык в команде;
+                    позволяет познакомиться с последними достижениями в области робототехники и разработки алгоритмов.</p>
+                    <img src="2239876427.jpg" alt="#" width="670px">
+            </div>
+        </section>
+        <section id="box-three">
+            <hr>
+            <div class="container-three">
+                <h4>Отзывы наших клиентов:</h4>
+                <div class="grade">
+                    <div class="user">
+                        <img src="icons8-пользователь-96.png" alt="#">
+                        <p>Дмирий</p>
+                    </div>
+                    <div class="bg-user">
+                        <p>Все отлично!!!</p>
+                    </div>
+                </div>
+                <div class="grade">
+                    <div class="user">
+                        <img src="icons8-пользователь-96.png" alt="#">
+                        <p>Григорий</p>
+                    </div>
+                    <div class="bg-user">
+                        <p>Хорошо!!!</p>
+                    </div>
+                </div>
+                <div class="grade">
+                    <div class="user">
+                        <img src="icons8-пользователь-с-рыжими-волосами-96.png" alt="#">
+                        <p>Марьяна</p>
+                    </div>
+                    <div class="bg-user">
+                        <p>Ребенок рад!!!</p>
+                    </div></div>
+                <div class="grade"></div>
+            </div>
+        </section>
+        <section id="box-four">
+            <form id="form1">
+                <h2>Заполните заявку и мы Вам перезвоним!</h2>
+                <label class="group">
+                    <span class="mb-20">Сколько ребенку лет?</span>
+                    <input type="number" placeholder="Введите возраст ребенка" name="age">
+                </label>
+                <hr>
+                <label class="group">
+                    <span class="mb-20">Какой предмет в школе ребенку больше всего нравится?</span>
+                    <label>
+                        <input type="radio" value="fiz-ra" name="school"><span>Фзкультура</span>
+                    </label>
+                    <label>
+                        <input type="radio" value="Fizika" name="school"><span>Физика</span>
+                    </label>
+                    <label>
+                        <input type="radio" value="Himia" name="school"><span>Химия</span>
+                    </label>
+                    <label>
+                        <input type="radio" value="Mathe-ka" name="school"><span>Математика</span>
+                    </label>
+                </label>
+                <hr>
+                <label class="group row">
+                    <span class="mr-20">Имя контактного лица:</span>
+                    <input type="text" placeholder="Как Вас зовут?" name="name">
+                </label>
+                <label class="group row">
+                    <span class="mr-20">Ваш номер телефона:</span>
+                    <input type="tel" placeholder="Номер телефона" name="tel">
+                </label>
+                <label class="group row">
+                    <span class="mr-20">Email:</span>
+                    <input type="email" placeholder="Адрес почты" name="email">
+                </label>
+                <label class="group row">
+                    <input type="checkbox" name="pravila">
+                    <span class="ml-20">Соглашаюсь с правилами</span>
+                </label>
+                <input type="submit" value="ОТПРАВИТЬ" class="group" id="but1">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
